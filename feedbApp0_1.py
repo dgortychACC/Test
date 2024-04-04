@@ -13,7 +13,7 @@ import json
 import openai
 
 # Load configuration from JSON file
-with open("C:/Users/piotr.janczewski/Desktop/genAI/Test/config.json", mode="r") as f:
+with open("config.json", mode="r") as f:
     config = json.load(f)
 
 client = openai.AzureOpenAI(
